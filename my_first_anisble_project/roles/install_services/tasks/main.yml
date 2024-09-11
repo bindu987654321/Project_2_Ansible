@@ -3,8 +3,8 @@
         name: nginx
         state: absent
 
-    - name: Start Nginx
-      service:
-        name: nginx
-        state: started
-        enabled: yes
+   # - name: Start Nginx
+    #  service:
+     #   name: nginx
+      #  state: started
+       # enabled: yes
